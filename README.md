@@ -309,6 +309,12 @@ script. It uses `docker` to manage dependencies and the environment.
 Alternatively, you can run the `nosetests` command after installing the
 requirements in `requirements-dev.txt`.
 
+Local development version installation:
+
+```bash
+./setup.py install
+```
+
 ## Troubleshooting
 
 See the [FAQ](https://github.com/b-ryan/powerline-shell/wiki/FAQ). If you
