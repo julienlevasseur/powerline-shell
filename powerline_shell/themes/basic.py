@@ -41,5 +41,8 @@ class Color(DefaultColor):
     AWS_PROFILE_FG = 14
     AWS_PROFILE_BG = 8
 
+    CLOUD_PROFILE_FG = 14
+    CLOUD_PROFILE_BG = 8
+
     TIME_FG = 8
     TIME_BG = 7
