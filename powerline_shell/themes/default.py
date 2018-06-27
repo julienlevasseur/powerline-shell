@@ -18,7 +18,8 @@ class DefaultColor(object):
     HOME_SPECIAL_DISPLAY = True
     HOME_BG = 31  # blueish
     HOME_FG = 15  # white
-    PATH_BG = 237  # dark grey
+    #PATH_BG = 237  # dark grey
+    PATH_BG = 31  # dark grey
     PATH_FG = 250  # light grey
     CWD_FG = 254  # nearly-white grey
     SEPARATOR_FG = 244
@@ -72,8 +73,10 @@ class DefaultColor(object):
     AWS_PROFILE_FG = 39
     AWS_PROFILE_BG = 238
 
-    CLOUD_PROFILE_FG = 214
-    CLOUD_PROFILE_BG = 237
+#    CLOUD_PROFILE_FG = 214
+#    CLOUD_PROFILE_BG = 237
+    CLOUD_PROFILE_FG = 237
+    CLOUD_PROFILE_BG = 214
 
     TIME_FG = 250
     TIME_BG = 238
