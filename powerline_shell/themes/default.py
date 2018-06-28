@@ -78,6 +78,9 @@ class DefaultColor(object):
     CLOUD_PROFILE_FG = 237
     CLOUD_PROFILE_BG = 214
 
+    TF_WORKSPACE_FG = 0
+    TF_WORKSPACE_BG = 99
+
     TIME_FG = 250
     TIME_BG = 238
 

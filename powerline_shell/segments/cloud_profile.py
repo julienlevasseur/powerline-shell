@@ -7,6 +7,7 @@ class Segment(BasicSegment):
         cloud_profile = os.environ.get("profile_name") or \
             os.environ.get("AWS_DEFAULT_PROFILE")
         if cloud_profile:
-            self.powerline.append(" %s " % os.path.basename(cloud_profile),
-                                    self.powerline.theme.CLOUD_PROFILE_FG,
-                                    self.powerline.theme.CLOUD_PROFILE_BG)
+            fg = self.powerline.theme.CLOUD_PROFILE_FG
+            bg = self.powerline.theme.CLOUD_PROFILE_BG
+            profile = os.path.basename(cloud_profile)
+            self.powerline.append(" %s " % profile, fg, bg)
