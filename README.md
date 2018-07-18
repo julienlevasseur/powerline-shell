@@ -91,6 +91,7 @@ install for just your user, if you'd like. But you may need to fiddle with your
 ```
 git clone https://github.com/b-ryan/powerline-shell
 cd powerline-shell
+pip install -r requirements-dev.txt
 python setup.py install
 ```
 
